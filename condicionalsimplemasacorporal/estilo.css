@@ -1,0 +1,33 @@
+body {
+    background-color: #0b6e4d;
+    margin: 0;
+    height: 100vh; /* Ocupa el 100% del alto de la pantalla */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    background-color: #e1dbe3;
+    padding: 30px;
+    border: 5px solid #200424;
+    border-radius: 30px;
+    width: 90%;          /* En móviles ocupa casi todo */
+    max-width: 400px;    /* En PC no se estira demasiado */
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3); /* Sombra para que resalte */
+}
+
+h1 {
+    color: rgb(87, 90, 239);
+    margin-top: 0;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
